@@ -15,5 +15,5 @@ if (dir < 0 && activeCard.row > 0) {
 	audio_play_sound(sfxMove, 1, 0);
 	return true;
 }
-
+audio_play_sound(sfxWrongMove, 1, 0);
 return false;
