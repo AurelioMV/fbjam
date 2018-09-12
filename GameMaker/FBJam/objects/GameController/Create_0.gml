@@ -15,7 +15,7 @@ rowsPos[| 1] = 720/2;
 rowsPos[| 2] = 720-120;
 defaultSpeed = 500;
 cardSpeed = defaultSpeed;
-fastSpeed = 2000;
+fastSpeed = 2500;
 colS = 1280;
 colH = 100;
 
