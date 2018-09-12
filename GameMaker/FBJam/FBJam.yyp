@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1bdbbf41-f6a5-426f-a6c9-28a8f65b9bac",
+            "Value": {
+                "id": "7a33d958-7215-4fb2-a01d-b7644c95be96",
+                "resourcePath": "sprites\\sprMiniIcons\\sprMiniIcons.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ec3bfdc-b706-48a8-a34b-90c4f8e436b5",
             "Value": {
                 "id": "55e6017d-8e92-4576-a764-9fb4e8e583d9",
