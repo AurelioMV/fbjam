@@ -19,6 +19,7 @@ if (instance_exists(activeCard)) {
 			
 		if (len != 0 && prev.shapeTop == activeCard.shapeBottom && prev.colorTop == activeCard.colorBottom) {
 			// Combo
+			score += 20;
 			ClearColumn(row);
 			instance_destroy(activeCard);
 			// Create next
@@ -32,6 +33,8 @@ if (instance_exists(activeCard)) {
 				activeCard.y = yy;
 				colL[| row]++;
 						
+				score += 1;
+				
 				// Create next
 				CreateCard(1);
 			} 

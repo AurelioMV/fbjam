@@ -20,6 +20,7 @@ fastSpeed = 2500;
 colS = 1280;
 colH = 100;
 cardN = 0;
+score = 0;
 
 gridMap = ds_grid_create(gridW, gridH);
 //gridMap[# 2, 2] = 5;
