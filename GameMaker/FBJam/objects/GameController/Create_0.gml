@@ -1,6 +1,6 @@
 // Create grid
 globalvar gridMap, gridW, gridH, colH, colS, colL, rowsPos, activeCard, cardSpeed, dt, colorN, shapeN;
-globalvar defaultSpeed, fastSpeed;
+globalvar defaultSpeed, fastSpeed, cardN;
 gridW = 3;
 gridH = 7;
 colorN = 3;
@@ -18,6 +18,7 @@ cardSpeed = defaultSpeed;
 fastSpeed = 2500;
 colS = 1280;
 colH = 100;
+cardN = 0;
 
 gridMap = ds_grid_create(gridW, gridH);
 //gridMap[# 2, 2] = 5;

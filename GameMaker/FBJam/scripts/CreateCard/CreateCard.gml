@@ -15,3 +15,6 @@ activeCard.shapeTop = st;
 activeCard.shapeBottom = sb;
 activeCard.colorTop = ct;
 activeCard.colorBottom = cb;
+
+cardN++;
+activeCard.depth = -cardN;
