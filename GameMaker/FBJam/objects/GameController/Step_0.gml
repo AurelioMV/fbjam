@@ -24,8 +24,11 @@ if (instance_exists(activeCard)) {
 			
 			// Assign
 			gridMap[# row, len] = activeCard;
+			activeCard.y = yy;
 			colL[| row]++;
-		
+			
+			cardSpeed = defaultSpeed;
+			
 			// Create next
 			CreateCard(1);
 		} else {

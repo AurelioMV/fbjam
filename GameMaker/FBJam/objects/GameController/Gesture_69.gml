@@ -11,6 +11,12 @@ if (abs(xx) > abs(yy)) {
 		MoveCard(-1);
 	}
 } else {
-	// Vertical
-	show_debug_message("Vertical");
+	//Swipe down, fall faster
+	if(yy > 0) {
+		cardSpeed = fastSpeed;
+	}
+	else {
+		FlipCard();
+	}
+		
 }
