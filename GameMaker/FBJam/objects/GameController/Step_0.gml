@@ -12,7 +12,6 @@ if (instance_exists(activeCard)) {
 	var row = activeCard.row;
 	var len = colL[| row];
 	var yy = colS - colH * len;
-	audio_play_sound(sfxConnect, 1, 0);
 	if (activeCard.y >= yy) {
 		// Check compatible
 		var prev = gridMap[# row, len - 1];
@@ -23,6 +22,7 @@ if (instance_exists(activeCard)) {
 			ClearColumn(row);
 			instance_destroy(activeCard);
 			// Create next
+			audio_play_sound(sfxConnect, 1, 0);
 			CreateCard(1);
 		} 
 		else {
@@ -39,6 +39,7 @@ if (instance_exists(activeCard)) {
 				
 				
 				// Create next
+				audio_play_sound(sfxConnect, 1, 0);
 				CreateCard(1);
 			} 
 			else {
