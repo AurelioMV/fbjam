@@ -1,1 +1,1 @@
-show_debug_message("hello world! oi");
+show_debug_message("oi bruno");
