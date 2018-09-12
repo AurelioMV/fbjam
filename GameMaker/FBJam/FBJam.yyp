@@ -234,7 +234,7 @@
             "Key": "f3e5519b-488c-4c92-a779-7492046a25f8",
             "Value": {
                 "id": "8f377d0a-d54f-434d-a160-577a61550863",
-                "resourcePath": "scripts\\TestCollab\\TestCollab.yy",
+                "resourcePath": "scripts\\FlipCard\\FlipCard.yy",
                 "resourceType": "GMScript"
             }
         }
