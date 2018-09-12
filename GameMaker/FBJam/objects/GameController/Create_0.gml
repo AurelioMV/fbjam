@@ -1,6 +1,7 @@
 // Create grid
-globalvar gridMap, gridW, gridH, colH, colS, colL, rowsPos, activeCard, cardSpeed, dt, colorN, shapeN;
-globalvar defaultSpeed, fastSpeed, cardN;
+globalvar gridMap, gridW, gridH, colH, colS, colL, rowsPos;
+globalvar activeCard, colorN, shapeN, cardN;
+globalvar cardSpeed, defaultSpeed, fastSpeed, dt;
 gridW = 3;
 gridH = 7;
 colorN = 3;
