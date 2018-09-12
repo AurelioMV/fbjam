@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "4af18624-1958-419f-b842-b4e40ccdc347",
+            "Value": {
+                "id": "cdc51c1a-b9a2-465e-b4fa-38260f770957",
+                "resourcePath": "sounds\\sfxWrongMove\\sfxWrongMove.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4ba62970-06d8-4446-8067-787428064151",
             "Value": {
                 "id": "c2df8363-202d-45f6-89fd-eabab90ee2bf",
