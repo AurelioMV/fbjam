@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "987ac56d-1188-4ad7-b01e-0cb706b4dfda",
+            "Value": {
+                "id": "3bba4609-c924-4eb6-985b-aaabe180c8fa",
+                "resourcePath": "sounds\\sfxConnect\\sfxConnect.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "aa557c01-668e-431c-a5b3-0172d2cf2f2e",
             "Value": {
                 "id": "ad02220d-8d93-421e-8c94-38ee180247c4",
@@ -180,6 +188,14 @@
                 "id": "2b0456a9-e61f-4a92-aeb9-fd2284a8097e",
                 "resourcePath": "views\\b61458ac-841a-4d25-bc44-585b8403cc95.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bb573c10-ffd4-4957-88e7-40b3b5f0740e",
+            "Value": {
+                "id": "633aeffa-69ec-493d-b29e-0faa9037bfe4",
+                "resourcePath": "sounds\\sfxCombo\\sfxCombo.yy",
+                "resourceType": "GMSound"
             }
         },
         {
