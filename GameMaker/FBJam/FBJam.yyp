@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "5921c2e9-defe-465a-bd49-32a63d987001",
+            "Value": {
+                "id": "da95d824-a977-46fb-bbe4-5583f1940aa8",
+                "resourcePath": "sounds\\sfxMove\\sfxMove.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "60d23a2b-1688-4a48-8151-fd77e18a2e71",
             "Value": {
                 "id": "dfaed01f-d0a3-4b1f-a9b8-d938f4845400",
