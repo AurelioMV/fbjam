@@ -4,8 +4,8 @@ draw_self();
 
 // Top
 var i = shapeTop * colorN + colorTop;
-draw_sprite(sprIcons, i, x, y - 50);
+draw_sprite(sprIcons, i, x, y - 90);
 
 // Bottom
 var i = shapeBottom * colorN + colorBottom;
-draw_sprite(sprIcons, i, x, y + 50);
+draw_sprite(sprIcons, i, x, y + 90);
