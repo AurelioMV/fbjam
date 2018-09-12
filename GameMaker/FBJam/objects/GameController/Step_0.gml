@@ -28,12 +28,15 @@ if (instance_exists(activeCard)) {
 		else {
 			if (len < gridH && (len == 0 || prev.shapeTop == activeCard.shapeBottom || prev.colorTop == activeCard.colorBottom)) {
 					
+				if(len > 0) //Score just on match
+					score += 1;
+					
 				// Assign
 				gridMap[# row, len] = activeCard;
 				activeCard.y = yy;
 				colL[| row]++;
-						
-				score += 1;
+				
+				
 				
 				// Create next
 				CreateCard(1);
