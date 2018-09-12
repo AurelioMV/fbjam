@@ -17,8 +17,8 @@ rowsPos[| 2] = 720-120;
 defaultSpeed = 500;
 cardSpeed = defaultSpeed;
 fastSpeed = 2500;
-colS = 1280;
-colH = 100;
+colS = 1130;
+colH = 130;
 cardN = 0;
 
 gridMap = ds_grid_create(gridW, gridH);
