@@ -18,3 +18,4 @@ activeCard.colorBottom = cb;
 
 cardN++;
 activeCard.depth = -cardN;
+cardSpeed = defaultSpeed;

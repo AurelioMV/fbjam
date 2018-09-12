@@ -16,25 +16,30 @@ if (instance_exists(activeCard)) {
 	if (activeCard.y >= yy) {
 		// Check compatible
 		var prev = gridMap[# row, len - 1];
-		if (len == 0 || prev.shapeTop == activeCard.shapeBottom || prev.colorTop == activeCard.colorBottom) {
-			if (len != 0 && prev.shapeTop == activeCard.shapeBottom && prev.colorTop == activeCard.colorBottom) {
-				// Combo
-				show_debug_message("Combo!");
-			}
 			
-			// Assign
-			gridMap[# row, len] = activeCard;
-			activeCard.y = yy;
-			colL[| row]++;
-			
-			cardSpeed = defaultSpeed;
-			
+		if (len != 0 && prev.shapeTop == activeCard.shapeBottom && prev.colorTop == activeCard.colorBottom) {
+			// Combo
+			ClearColumn(row);
+			instance_destroy(activeCard);
 			// Create next
 			CreateCard(1);
-		} else {
-			// Game Over
-			show_debug_message("Game Over");	
-			room_restart();
+		} 
+		else {
+			if (len < gridH && (len == 0 || prev.shapeTop == activeCard.shapeBottom || prev.colorTop == activeCard.colorBottom)) {
+					
+				// Assign
+				gridMap[# row, len] = activeCard;
+				activeCard.y = yy;
+				colL[| row]++;
+						
+				// Create next
+				CreateCard(1);
+			} 
+			else {
+				// Game Over
+				show_debug_message("Game Over");	
+				room_restart();
+			}
 		}
 	}
 }
