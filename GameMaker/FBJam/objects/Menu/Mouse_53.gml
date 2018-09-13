@@ -8,7 +8,7 @@ if(!displayLeaderboard) {
 		room_goto(GameRoom);
 	}
 	else if(point_in_rectangle(xx, yy, 217, 863, 511, 963)) { //Tutorial
-		//show_message("Tutorial");
+		room_goto(TutorialRoom);
 	}
 	else if(point_in_rectangle(xx, yy, 99, 1071, 238, 1203)) { //Toggle Mute
 		muted = !muted;

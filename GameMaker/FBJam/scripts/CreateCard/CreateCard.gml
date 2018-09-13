@@ -11,7 +11,7 @@ var st = nextShapeT;
 var sb = nextShapeB;
 var ct = nextColorT;
 var cb = nextColorB;
-if (cardN < 10 && random(1) > cardN / 60){
+if (cardN < 20 && random(1) > cardN / 70){
 	nextShapeT = floor(random(shapeN - 1));
 	nextShapeB = floor(random(shapeN - 1));
 } else {
@@ -20,7 +20,7 @@ if (cardN < 10 && random(1) > cardN / 60){
 }
 nextColorT = floor(random(colorN));
 nextColorB = floor(random(colorN));
-if (random(1) < 0.07){
+if (cardN > 10 && random(1) < 0.07){
 	// Rainbow
 	if (random(1) < 0.5){
 		nextColorT = 3;
@@ -52,6 +52,6 @@ activeCard.depth = -cardN;
 
 //Every 5 cards spawned, increase speed
 if(cardN % 5 == 0) {
-	increasedSpeed += 20;
+	increasedSpeed += 15;
 }
 cardSpeed = defaultSpeed + increasedSpeed;

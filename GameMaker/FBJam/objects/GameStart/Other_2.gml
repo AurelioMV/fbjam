@@ -13,3 +13,5 @@ FBInstantGames_StartGame("gmcallback_gamestart", "gmcallback_pause");
 // Optimize
 gml_release_mode(true);
 application_surface_enable(false);
+
+randomize();

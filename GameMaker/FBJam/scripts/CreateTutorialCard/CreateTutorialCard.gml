@@ -1,4 +1,11 @@
 /// @function CreateCard()
+
+if (tutorialStep != -1 && !tutorialHint){
+	tutorialHint = true;
+} else {
+	tutorialHint = false;
+}
+
 tutorialStep++;
 
 var row = 1;
@@ -39,7 +46,29 @@ switch(tutorialStep){
 		nextShapeB = 1;
 		nextColorT = 1;
 		nextColorB = 2;
+		cardSpeed = defaultSpeed;
 		break;
+	case 5:
+		nextShapeT = 0;
+		nextShapeB = 1;
+		nextColorT = 1;
+		nextColorB = 2;
+		cardSpeed = defaultSpeed;
+		break;
+	case 6:
+		nextShapeT = 1;
+		nextShapeB = 2;
+		nextColorT = 0;
+		nextColorB = 1;
+		cardSpeed = defaultSpeed;
+		break;
+	case 7:
+		tutorialMode = false;
+		instance_destroy(TutorialController);
+		cardSpeed = defaultSpeed;
+		CreateCard(1);
+		cardSpeed = defaultSpeed;
+		return;
 }
 
 var xx = rowsPos[| row];

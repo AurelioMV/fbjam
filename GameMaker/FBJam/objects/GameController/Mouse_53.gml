@@ -25,7 +25,7 @@ else if(paused && !gameOver){
 		room_goto(MainMenu);
 	}
 	else if(point_in_rectangle(touchX, touchY, 292, 472, 429, 600)) { //Restart
-		room_restart();
+		room_goto(GameRoom);
 	}
 	else if(point_in_rectangle(touchX, touchY, 521, 472, 658, 600)) { //Toggle Mute
 		muted = !muted;
@@ -39,7 +39,7 @@ else if(gameOver) {
 		room_goto(MainMenu);
 	}
 	else if(point_in_rectangle(touchX, touchY, 412, 545, 545, 677)) { //Restart
-		room_restart();
+		room_goto(GameRoom);
 	}
 	else if(point_in_rectangle(touchX, touchY, 224, 830, 502, 1087)) { //ShareHighscore
 		displayLeaderboard = true;
