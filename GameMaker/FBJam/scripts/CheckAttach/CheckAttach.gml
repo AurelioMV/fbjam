@@ -14,7 +14,7 @@ if (activeCard.y >= yy) {
 		if(!CheckComboFull()) {
 			// Combo
 			ClearColumn(row);
-			instance_destroy(activeCard);
+			activeCard.poof = 1;
 			// Create next
 			audio_play_sound(sfxConnect, 1, 0);
 			CreateCard(1);	
@@ -23,10 +23,14 @@ if (activeCard.y >= yy) {
 	else if ((len == 0 && row == activeCard.shapeBottom) || 
 			(len != 0 && len < gridH && (prev.shapeTop == activeCard.shapeBottom || prev.colorTop == activeCard.colorBottom))) {
 				
-		if (len > 0) //Col not empty 
+		if (len > 0) {//Col not empty 
 			score += 20;
-		else
+			activeCard.attaching = 1;
+		}
+		else {
 			score += 5;
+			activeCard.attground = 1;
+		}
 				
 		currentPlacedCards++;
 				

@@ -1,6 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_self();
+
+if (poof > 0) {
+	draw_sprite_ext(sprPoof, floor(poof * 3.99), x, y, 1, 1, 0, c_white, 1);
+	poof -= 5 * dt;
+	
+	if (poof <= 0){
+		instance_destroy(self);	
+	}
+	return;
+} else {
+	draw_self();
+}
 
 // Top
 var i = shapeTop + colorTop * shapeN;
@@ -32,6 +43,16 @@ if (sliding != 0) {
 
 // Flipping effect
 if (flipping > 0) {
-	draw_sprite_ext(sprFlip, floor(flipping * 2.99), x, y, 1, 1, 0, c_white, 0.3);
-	flipping -= 5 * dt;
+	draw_sprite_ext(sprFlip, floor(flipping * 2.99), x, y, 1, 1, 0, c_white, 0.7);
+	flipping -= 7 * dt;
+}
+
+// Attaching effect
+if (attaching > 0) {
+	draw_sprite_ext(sprAttach, floor(attaching * 3.99), x, y + 70, 1, 1, 0, c_white, 1);
+	attaching -= 5 * dt;
+}
+if (attground > 0) {
+	draw_sprite_ext(sprAttachGround, floor(attground * 4.99), x, y + 30, 1, 1, 0, c_white, 1);
+	attground -= 5 * dt;
 }

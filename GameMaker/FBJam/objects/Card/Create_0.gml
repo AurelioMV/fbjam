@@ -8,3 +8,6 @@ row = 0;
 droppingDown = -1;
 sliding = 0;
 flipping = -1;
+attaching = -1;
+attground = -1;
+poof = -1;
