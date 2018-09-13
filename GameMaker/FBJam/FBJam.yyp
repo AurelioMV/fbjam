@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "10c6f404-4d03-4d4f-acac-bcc74711bdca",
+            "Value": {
+                "id": "0b02accb-c8b4-4f46-8fb2-13c2bca73c7d",
+                "resourcePath": "sprites\\sprMute\\sprMute.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1932c499-4b81-432a-977c-1facc7fe41c9",
             "Value": {
                 "id": "abfb8b5f-0a93-4463-a7c3-91f7719375c3",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "63fbf74a-3e59-46c9-90fa-59e1fd268e52",
+            "Value": {
+                "id": "37b8e6fb-b1cd-459d-b7d6-fc19d7ae884a",
+                "resourcePath": "scripts\\CreateTutorialCard\\CreateTutorialCard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "643025cb-ed90-409a-9c92-e9fa7ce02905",
             "Value": {
                 "id": "7365a931-af5f-411e-96b8-ed8577f9b017",
@@ -428,6 +444,14 @@
                 "id": "39ed7678-7e96-45b8-87d9-9385e2353e08",
                 "resourcePath": "scripts\\SocialShare\\SocialShare.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "afff2124-360c-43d1-a20e-c958a4bc4bb0",
+            "Value": {
+                "id": "0c9b672f-ccfd-4568-8cdd-e2166a42b6e3",
+                "resourcePath": "objects\\MenuGO\\MenuGO.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -632,7 +656,8 @@
         "fbe6f620-3d86-4130-93ca-86a03262f27f",
         "29bfacad-ddf1-4ca3-a1f9-c38466ce2756",
         "ad957c51-927d-494a-a96e-9900c44c0020",
-        "27bade0b-281d-40d7-b5a1-7be02bf8cee2"
+        "27bade0b-281d-40d7-b5a1-7be02bf8cee2",
+        "63fbf74a-3e59-46c9-90fa-59e1fd268e52"
     ],
     "tutorial": ""
 }

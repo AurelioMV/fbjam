@@ -1,0 +1,2 @@
+globalvar tutorialMode;
+tutorialMode = false;

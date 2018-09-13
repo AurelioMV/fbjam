@@ -16,13 +16,19 @@ var i = nextShapeB + nextColorB * shapeN;
 draw_sprite_ext(sprMiniIcons, i, 670, 85, 1.3, 1.3, 1, c_white, 1);
 
 //Pause Menu
-if(paused)
+if(paused){
 	draw_sprite(sprMenuPause, 0, 360, 0);
+	
+	if (muted){
+		draw_sprite(sprMute, 0, 589, 538);
+	}
+}
 else if(gameOver)
 	draw_sprite(sprGameOver, 0, 360, 0);
 
 // Score
 draw_set_font(fontNumbers);
+draw_set_halign(fa_center);
 draw_set_color(c_white);
 if(!gameOver) {
 	draw_text_transformed(320, 22, string(score), 0.7, 0.7, 0);

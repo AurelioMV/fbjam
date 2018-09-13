@@ -7,9 +7,14 @@ if(!displayLeaderboard) {
 	}
 
 	if (playerName != ""){
+		draw_set_halign(fa_left);
 		draw_set_font(fontDefault);
+		draw_set_color(c_white);
 		draw_text_transformed(290, 210, playerName, 1.1, 1.1, 0);
 	}
+	
+	if (muted)
+		draw_sprite(sprMute, 0, 177, 1128);
 	
 	/*
 	draw_sprite_stretched(sprAvatarTest, 0, 74, 145, 195, 195);
@@ -29,6 +34,8 @@ else {
 			var high = playerLeaderboard[# i, 2];
 	
 			draw_set_font(fontDefault);
+			draw_set_halign(fa_left);
+			draw_set_color(c_white);
 			draw_sprite_stretched(playerLeaderboard[# i, 1], 0, 75, 190 + 185 * i, 125, 125);
 			draw_text(220, 225 + 185 * i, name + ": " + string(high));	
 		}

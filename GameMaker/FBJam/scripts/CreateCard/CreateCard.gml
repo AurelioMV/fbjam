@@ -6,8 +6,13 @@ var st = nextShapeT;
 var sb = nextShapeB;
 var ct = nextColorT;
 var cb = nextColorB;
-nextShapeT = floor(random(shapeN));
-nextShapeB = floor(random(shapeN));
+if (cardN < 10 && random(1) > cardN / 30){
+	nextShapeT = floor(random(shapeN - 1));
+	nextShapeB = floor(random(shapeN - 1));
+} else {
+	nextShapeT = floor(random(shapeN));
+	nextShapeB = floor(random(shapeN));
+}
 nextColorT = floor(random(colorN));
 nextColorB = floor(random(colorN));
 

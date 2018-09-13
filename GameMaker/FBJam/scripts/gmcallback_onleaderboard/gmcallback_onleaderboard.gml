@@ -1,6 +1,8 @@
 var str = argument0;
 
-for (var i = 0; i < 10; i++){
+leaderboardEntries = 0;
+
+for (var i = 0; i < 7; i++){
 	var rank = 0;
 	var name = "";
 	var picture = "";
