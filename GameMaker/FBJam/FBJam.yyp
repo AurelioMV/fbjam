@@ -309,6 +309,14 @@
                 "resourcePath": "scripts\\FlipCard\\FlipCard.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "f91baedf-2e66-49ee-8201-e796b80a1157",
+            "Value": {
+                "id": "91a9e323-733e-4365-a728-ecb9faa8ac36",
+                "resourcePath": "objects\\GameStart\\GameStart.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
