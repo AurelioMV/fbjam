@@ -19,7 +19,7 @@ activeCard.colorBottom = cb;
 cardN++;
 activeCard.depth = -cardN;
 
-//Every 20 cards spawned, increase speed
+//Every 10 cards spawned, increase speed
 if(cardN % 10 == 0) {
 	increasedSpeed += 100;
 }
