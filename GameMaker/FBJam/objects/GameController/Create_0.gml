@@ -1,7 +1,7 @@
 // Create grid
 globalvar gridMap, gridW, gridH, colH, colS, colL, rowsPos;
 globalvar activeCard, colorN, shapeN, cardN;
-globalvar cardSpeed, defaultSpeed, fastSpeed, dt;
+globalvar cardSpeed, defaultSpeed, fastSpeed, increasedSpeed, dt;
 globalvar currentPlacedCards, maxCards; //To check all columns completion
 globalvar touchX, touchY;
 gridW = 3;
@@ -19,6 +19,7 @@ rowsPos[| 2] = 720-120;
 defaultSpeed = 500;
 cardSpeed = defaultSpeed;
 fastSpeed = 2500;
+increasedSpeed = 0;
 colS = 1160;
 colH = 130;
 cardN = 0;
