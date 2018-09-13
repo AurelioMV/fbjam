@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "643025cb-ed90-409a-9c92-e9fa7ce02905",
+            "Value": {
+                "id": "7365a931-af5f-411e-96b8-ed8577f9b017",
+                "resourcePath": "extensions\\FBInstantGames_LoadingBar\\FBInstantGames_LoadingBar.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "0b86a93c-03d3-47b2-9f2e-1284dba70301",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "ab7ec39d-9884-4bc9-8380-1ed03da89527",
+            "Value": {
+                "id": "a31567e2-584d-4489-8167-d02c25f94d3c",
+                "resourcePath": "datafiles_yy\\fbinstant_index.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "b61458ac-841a-4d25-bc44-585b8403cc95",
             "Value": {
                 "id": "2b0456a9-e61f-4a92-aeb9-fd2284a8097e",
@@ -204,6 +220,14 @@
                 "id": "633aeffa-69ec-493d-b29e-0faa9037bfe4",
                 "resourcePath": "sounds\\sfxCombo\\sfxCombo.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "bceff0a6-b228-487e-a1e7-19ea5d57b8d5",
+            "Value": {
+                "id": "df8b3f7c-8e3f-4d51-9076-906e163011c7",
+                "resourcePath": "extensions\\FBInstantGames\\FBInstantGames.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
