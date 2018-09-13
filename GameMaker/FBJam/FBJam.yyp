@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "3e1be9ac-9865-48a1-a2c7-3b7d70e605be",
+            "Value": {
+                "id": "d70bafc6-1091-4699-9ed6-eaebd919978f",
+                "resourcePath": "objects\\TutorialController\\TutorialController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4348ece2-82af-46fc-b6ba-6b17ef5c084f",
             "Value": {
                 "id": "d28cd65e-a268-4723-891d-a707bf4bac19",
@@ -404,6 +412,14 @@
                 "id": "a31567e2-584d-4489-8167-d02c25f94d3c",
                 "resourcePath": "datafiles_yy\\fbinstant_index.html.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "acc3c89f-7c1d-4f90-94c7-f1a5dbc425d5",
+            "Value": {
+                "id": "84f1a279-0e1c-4913-8876-7f5e405b5832",
+                "resourcePath": "rooms\\TutorialRoom\\TutorialRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
