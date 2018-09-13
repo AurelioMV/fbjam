@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "627963c3-1619-4a37-af91-82192b46841a",
+            "Value": {
+                "id": "be090eab-5628-4a81-bf4a-8622525f135b",
+                "resourcePath": "sprites\\sprPoof\\sprPoof.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62ea2d6f-b47d-4054-a67f-844887ce2895",
             "Value": {
                 "id": "6e5e8558-4275-4ec2-a24d-1a7334795e18",

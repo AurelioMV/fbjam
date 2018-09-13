@@ -1,6 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_self();
+
+if (poof > 0) {
+	draw_sprite_ext(sprPoof, floor(poof * 3.99), x, y, 1, 1, 0, c_white, 1);
+	poof -= 5 * dt;
+	
+	if (poof <= 0){
+		instance_destroy(self);	
+	}
+	return;
+} else {
+	draw_self();
+}
 
 // Top
 var i = shapeTop + colorTop * shapeN;

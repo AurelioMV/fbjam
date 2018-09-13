@@ -14,7 +14,7 @@ if (activeCard.y >= yy) {
 		if(!CheckComboFull()) {
 			// Combo
 			ClearColumn(row);
-			instance_destroy(activeCard);
+			activeCard.poof = 1;
 			// Create next
 			audio_play_sound(sfxConnect, 1, 0);
 			CreateCard(1);	
