@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "4a02f23a-5b68-48e3-8841-2aeae48838b2",
+            "Value": {
+                "id": "14f3d834-8921-490a-80ee-8d70fc746e0b",
+                "resourcePath": "scripts\\GameOver\\GameOver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4ba62970-06d8-4446-8067-787428064151",
             "Value": {
                 "id": "c2df8363-202d-45f6-89fd-eabab90ee2bf",
@@ -429,6 +437,14 @@
                 "resourcePath": "objects\\GameStart\\GameStart.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "fbe6f620-3d86-4130-93ca-86a03262f27f",
+            "Value": {
+                "id": "ab344645-092c-44b9-a9c7-d943aa04f9a0",
+                "resourcePath": "scripts\\OnScoreSubmitted\\OnScoreSubmitted.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -443,7 +459,9 @@
         "3cebb740-1d6c-464a-9571-82b118041414",
         "88aa6826-f7c9-4d52-b17e-36806014bec0",
         "ba5db34f-4a60-4600-81ca-fd2666c71bef",
-        "ef6cfeb4-258f-43c0-aeb1-8d4973b8b58e"
+        "ef6cfeb4-258f-43c0-aeb1-8d4973b8b58e",
+        "4a02f23a-5b68-48e3-8841-2aeae48838b2",
+        "fbe6f620-3d86-4130-93ca-86a03262f27f"
     ],
     "tutorial": ""
 }

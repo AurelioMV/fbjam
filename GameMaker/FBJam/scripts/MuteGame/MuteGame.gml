@@ -1,5 +1,6 @@
 ///@function MuteGame(mute)
 ///@param mute
+var mute = argument0;
 
 if(muted != mute) {
 	//muted = mute; Seria melhor escolher se vai alterar ou nao a opcao
