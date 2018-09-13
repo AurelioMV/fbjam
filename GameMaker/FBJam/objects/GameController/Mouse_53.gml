@@ -10,21 +10,27 @@ if(!paused)
 
 
 //Pause
-if(!paused && point_in_rectangle(touchX, touchY, 25, 5, 120, 100)) {
-	touchActive = false;
-	TogglePause(true);
+if (!paused){
+	if(point_in_rectangle(touchX, touchY, 25, 5, 120, 100)) {
+		touchActive = false;
+		TogglePause(true);
+	}
 }
-else if(paused && point_in_rectangle(touchX, touchY, 226, 786, 493, 1036)) { //Resume
-	TogglePause(false);
+else {
+	if(point_in_rectangle(touchX, touchY, 226, 786, 493, 1036)) { //Resume
+		TogglePause(false);
+	}
+	else if(point_in_rectangle(touchX, touchY, 68, 472, 205, 600)) { //Main Menu
+		//Go Main Menu
+		room_goto(MainMenu);
+	}
+	else if(point_in_rectangle(touchX, touchY, 292, 472, 429, 600)) { //Restart
+		room_restart();
+	}
+	else if(point_in_rectangle(touchX, touchY, 521, 472, 658, 600)) { //Toggle Mute
+		muted = !muted;
+		if (muted) audio_master_gain(0);
+		else audio_master_gain(1);
+		//TogglePause will handle playing or not the music
+	}
 }
-else if(paused && point_in_rectangle(touchX, touchY, 68, 472, 205, 600)) { //Main Menu
-	//Go Main Menu
-}
-else if(paused && point_in_rectangle(touchX, touchY, 292, 472, 429, 600)) { //Restart
-	room_restart();
-}
-else if(paused && point_in_rectangle(touchX, touchY, 521, 472, 658, 600)) { //Toggle Mute
-	muted = !muted;
-	//TogglePause will handle playing or not the music
-}
-
