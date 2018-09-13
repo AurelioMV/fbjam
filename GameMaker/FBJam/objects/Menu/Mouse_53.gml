@@ -18,6 +18,6 @@ else if(point_in_rectangle(xx, yy, 99, 1071, 238, 1203)) { //Toggle Mute
 	else audio_master_gain(1);
 }
 else if(point_in_rectangle(xx, yy, 525, 1069, 657, 1193)) { //Share
-	//show_message("Share");
+	SocialShare();
 }
 

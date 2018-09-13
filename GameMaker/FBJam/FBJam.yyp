@@ -106,7 +106,7 @@
             "Key": "27bade0b-281d-40d7-b5a1-7be02bf8cee2",
             "Value": {
                 "id": "7cd71e6f-d587-49db-9e03-1fe7acfc16e5",
-                "resourcePath": "scripts\\HIghscoreShare\\HIghscoreShare.yy",
+                "resourcePath": "scripts\\HighscoreShare\\HighscoreShare.yy",
                 "resourceType": "GMScript"
             }
         },
