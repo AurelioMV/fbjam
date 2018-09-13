@@ -25,11 +25,11 @@ else {
 	if (leaderboardEntries > 0){
 		for (var i = 0; i < leaderboardEntries; i++){
 			var name = playerLeaderboard[# i, 0];
-			var pic = sprite_add(playerLeaderboard[# i, 1], 1, false, false, 0, 0);
+			//var pic = sprite_add(playerLeaderboard[# i, 1], 1, false, false, 0, 0);
 			var high = playerLeaderboard[# i, 2];
 	
 			draw_set_font(fontDefault);
-			draw_sprite_stretched(pic, 0, 75, 190 + 185 * i, 125, 125);
+			draw_sprite_stretched(playerLeaderboard[# i, 1], 0, 75, 190 + 185 * i, 125, 125);
 			draw_text(220, 225 + 185 * i, name + ": " + string(high));	
 		}
 	}
