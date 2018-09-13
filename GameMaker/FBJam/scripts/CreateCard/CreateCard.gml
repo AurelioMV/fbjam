@@ -9,7 +9,7 @@ var cb = floor(random(colorN));
 
 var xx = rowsPos[| row];
 
-activeCard = instance_create_depth(xx, 0, 0, Card);
+activeCard = instance_create_depth(xx, -50, 0, Card);
 activeCard.row = row;
 activeCard.shapeTop = st;
 activeCard.shapeBottom = sb;
