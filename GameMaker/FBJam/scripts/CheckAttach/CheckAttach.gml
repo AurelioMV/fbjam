@@ -7,8 +7,23 @@ if (activeCard.y >= yy) {
 	// Check compatible
 	var prev = gridMap[# row, len - 1];
 			
-	if (len != 0 && prev.shapeTop == activeCard.shapeBottom && prev.colorTop == activeCard.colorBottom) {
-			
+	if (activeCard.colorBottom == 3 && activeCard.shapeBottom == 1){
+		// Bomb!	
+		// Clear all cards
+		score += currentPlacedCards * 10;
+		for(var w = 0; w < gridW; w++) {
+			for(var h = 0; h < colL[| w]; h++) {
+				gridMap[# w, h].poof = 1;
+			}
+		
+			colL[| w] = 0;
+		}
+		currentPlacedCards = 0;
+		activeCard.poof = 1;
+		CreateCard(1);	
+	}
+	else if (len != 0 && prev.shapeTop == activeCard.shapeBottom && prev.colorTop == activeCard.colorBottom) {
+		// Combo
 		currentPlacedCards++;
 						
 		if(!CheckComboFull()) {
@@ -20,7 +35,9 @@ if (activeCard.y >= yy) {
 			CreateCard(1);	
 		}
 	} 
-	else if ((len == 0 && row == activeCard.shapeBottom) || 
+	else if ((activeCard.colorBottom == 3 && activeCard.shapeBottom == 0) ||
+			(len != 0 && prev.colorTop == 3 && prev.shapeTop == 0) ||
+			(len == 0 && row == activeCard.shapeBottom) || 
 			(len != 0 && len < gridH && (prev.shapeTop == activeCard.shapeBottom || prev.colorTop == activeCard.colorBottom))) {
 				
 		if (len > 0) {//Col not empty 

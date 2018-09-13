@@ -6,7 +6,7 @@ var st = nextShapeT;
 var sb = nextShapeB;
 var ct = nextColorT;
 var cb = nextColorB;
-if (cardN < 10 && random(1) > cardN / 30){
+if (cardN < 10 && random(1) > cardN / 60){
 	nextShapeT = floor(random(shapeN - 1));
 	nextShapeB = floor(random(shapeN - 1));
 } else {
@@ -15,7 +15,24 @@ if (cardN < 10 && random(1) > cardN / 30){
 }
 nextColorT = floor(random(colorN));
 nextColorB = floor(random(colorN));
-
+if (random(1) < 0.07){
+	// Rainbow
+	if (random(1) < 0.5){
+		nextColorT = 3;
+		nextShapeT = 0;
+	} else {
+		nextColorB = 3;
+		nextShapeB = 0;
+	}
+} else {
+	// Bomb
+	if (random(1) < 0.03){
+		nextColorT = 3;
+		nextColorB = 3;
+		nextShapeT = 1;
+		nextShapeB = 1;
+	}
+}
 var xx = rowsPos[| row];
 
 activeCard = instance_create_depth(xx, -50, 0, Card);
