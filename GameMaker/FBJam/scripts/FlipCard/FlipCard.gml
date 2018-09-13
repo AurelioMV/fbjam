@@ -9,4 +9,4 @@ activeCard.shapeTop = sb;
 activeCard.colorBottom = ct;
 activeCard.colorTop = cb;
 
-audio_play_sound(sfxMove, 1, 0)
+audio_play_sound(sfxMove, 1, 0);
