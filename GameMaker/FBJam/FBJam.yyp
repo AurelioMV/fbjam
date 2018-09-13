@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "544bb484-981c-4f8d-ba0a-ff35a52c068b",
+            "Value": {
+                "id": "d8172af1-3d49-4171-b92f-30b7d08b0c7a",
+                "resourcePath": "sounds\\sfxTheme\\sfxTheme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "54dfa78e-95a0-4cd1-9a52-0013fde2b6d4",
             "Value": {
                 "id": "d8485c1a-c623-459b-858c-318b02f286b2",
