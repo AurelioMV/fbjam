@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "27bade0b-281d-40d7-b5a1-7be02bf8cee2",
+            "Value": {
+                "id": "7cd71e6f-d587-49db-9e03-1fe7acfc16e5",
+                "resourcePath": "scripts\\HIghscoreShare\\HIghscoreShare.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "29bfacad-ddf1-4ca3-a1f9-c38466ce2756",
             "Value": {
                 "id": "3c12130a-f198-4b89-999d-8510a76cd2ac",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "ad957c51-927d-494a-a96e-9900c44c0020",
+            "Value": {
+                "id": "39ed7678-7e96-45b8-87d9-9385e2353e08",
+                "resourcePath": "scripts\\SocialShare\\SocialShare.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b61458ac-841a-4d25-bc44-585b8403cc95",
             "Value": {
                 "id": "2b0456a9-e61f-4a92-aeb9-fd2284a8097e",
@@ -526,7 +542,9 @@
         "ef6cfeb4-258f-43c0-aeb1-8d4973b8b58e",
         "4a02f23a-5b68-48e3-8841-2aeae48838b2",
         "fbe6f620-3d86-4130-93ca-86a03262f27f",
-        "29bfacad-ddf1-4ca3-a1f9-c38466ce2756"
+        "29bfacad-ddf1-4ca3-a1f9-c38466ce2756",
+        "ad957c51-927d-494a-a96e-9900c44c0020",
+        "27bade0b-281d-40d7-b5a1-7be02bf8cee2"
     ],
     "tutorial": ""
 }

@@ -253,6 +253,21 @@
                     "kind": 5,
                     "name": "FBInstantGames_GetLocale",
                     "returnType": 1
+                },
+                {
+                    "id": "63e29410-c5fb-4a86-907f-15cfcc1b3068",
+                    "modelName": "GMExtensionFunction",
+                    "mvc": "1.0",
+                    "argCount": 0,
+                    "args": [
+                        1
+                    ],
+                    "externalName": "",
+                    "help": "",
+                    "hidden": false,
+                    "kind": 5,
+                    "name": "FBInstantGames_Share",
+                    "returnType": 1
                 }
             ],
             "init": "",
@@ -271,7 +286,8 @@
                 "7ab771e7-a8a2-4dda-84a0-06ef4e01753e",
                 "d53aae17-c60e-4e7c-99d2-8e325f57d2ea",
                 "f740ce76-c648-4987-8a8b-25a24fc91737",
-                "e34a6195-ccfe-44ad-b51b-a1c10f8e006e"
+                "e34a6195-ccfe-44ad-b51b-a1c10f8e006e",
+                "63e29410-c5fb-4a86-907f-15cfcc1b3068"
             ],
             "origname": "",
             "uncompress": false
