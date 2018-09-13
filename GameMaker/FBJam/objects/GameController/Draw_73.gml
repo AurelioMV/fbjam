@@ -6,3 +6,11 @@ draw_sprite(sprFooter, 0, 360, 1280);
 draw_sprite(sprHeader, 0, 360, 0);
 draw_sprite(sprBorder, 0, 0, 0);
 draw_sprite_ext(sprBorder, 0, 720, 0, -1, 1, 0, c_white, 1);
+
+// Top
+var i = nextShapeT + nextColorT * shapeN;
+draw_sprite_ext(sprMiniIcons, i, 670, 35, 1.3, 1.3, 1, c_white, 1);
+
+// Bottom
+var i = nextShapeB + nextColorB * shapeN;
+draw_sprite_ext(sprMiniIcons, i, 670, 85, 1.3, 1.3, 1, c_white, 1);
