@@ -7,5 +7,10 @@ var pause = argument0;
 if(paused != pause) {
 	paused = pause;
 	
+	if(paused)
+		MuteGame(true); //Force mute
+	else
+		MuteGame(muted); //Return to default value
+	
 	//Enable or disable UI
 }
