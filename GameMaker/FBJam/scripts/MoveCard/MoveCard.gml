@@ -21,6 +21,7 @@ if(newRow != -1) {
 		activeCard.row = newRow;
 		
 		activeCard.x = rowsPos[| activeCard.row];
+		activeCard.sliding = dir;
 		audio_play_sound(sfxMove, 1, 0);
 		return true;
 	}	

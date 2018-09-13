@@ -1,1 +1,1 @@
-FBInstantGames_Share("Hey, I'm playing Flippy Cards! Wanna play with me?");
+//FBInstantGames_Share("Hey, I'm playing Flippy Cards! Wanna play with me?");

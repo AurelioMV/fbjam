@@ -5,3 +5,6 @@ shapeBottom = 0;
 colorTop = 0;
 colorBottom = 0;
 row = 0;
+droppingDown = -1;
+sliding = 0;
+flipping = -1;
