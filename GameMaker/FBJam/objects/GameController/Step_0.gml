@@ -11,3 +11,5 @@ if (instance_exists(activeCard)) {
 	// Attach
 	CheckAttach();
 }
+
+AdjustScaling();
