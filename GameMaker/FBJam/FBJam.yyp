@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "54e5588d-33fb-4fa2-a98c-08944b473ee3",
+            "Value": {
+                "id": "d5818f38-1958-4739-aed1-5f8c083672a5",
+                "resourcePath": "fonts\\fontDefault\\fontDefault.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "5921c2e9-defe-465a-bd49-32a63d987001",
             "Value": {
                 "id": "da95d824-a977-46fb-bbe4-5583f1940aa8",
@@ -266,7 +274,7 @@
             "Key": "a9389e58-8b54-4b4f-9d36-46d8e11a1ec5",
             "Value": {
                 "id": "949aef01-6592-4abe-8c64-814efc49075d",
-                "resourcePath": "fonts\\fontBebas\\fontBebas.yy",
+                "resourcePath": "fonts\\fontNumbers\\fontNumbers.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -412,6 +420,14 @@
                 "id": "b910a701-73c4-4759-88f1-9771858c6b18",
                 "resourcePath": "views\\e751d5e3-daa5-4ebc-81dd-3b8761068b4c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb226a9c-fca1-4319-ab2c-f81d21e34e6d",
+            "Value": {
+                "id": "8270d8a1-f3db-4458-8dc6-9bb8393c2e28",
+                "resourcePath": "objects\\Social\\Social.yy",
+                "resourceType": "GMObject"
             }
         },
         {

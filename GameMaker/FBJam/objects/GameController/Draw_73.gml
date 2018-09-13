@@ -8,6 +8,7 @@ draw_sprite(sprBorder, 0, 0, 0);
 draw_sprite_ext(sprBorder, 0, 720, 0, -1, 1, 0, c_white, 1);
 
 // Score
+draw_set_font(fontNumbers);
 draw_text_transformed(320, 22, string(score), 0.7, 0.7, 0);
 
 // Top

@@ -34,7 +34,6 @@ muted = false;
 
 // Font settings
 draw_set_halign(fa_center);
-draw_set_font(fontBebas);
 
 // Create first card
 nextShapeT = floor(random(shapeN));
