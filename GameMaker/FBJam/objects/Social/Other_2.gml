@@ -7,3 +7,5 @@ playerLeaderboard = ds_grid_create(10, 3);
 leaderboardEntries = 0;
 
 FBInstantGames_QueryLeaderboard("Score Leaderboards", 10, 0, "OnLeaderboardReceived");
+
+//OnLeaderboardReceived();
