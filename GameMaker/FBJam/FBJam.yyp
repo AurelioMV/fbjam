@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "038a88b8-fd5e-4f95-8ffd-21a026a0d81b",
+            "Value": {
+                "id": "941be9a3-8e71-44f9-bbe7-ffdcb21ddc7e",
+                "resourcePath": "datafiles_yy\\fbinstant_index.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "055f3f3f-677f-4d23-a2fc-977311a28500",
             "Value": {
                 "id": "e00e44ba-a598-4961-b96d-4224ad375853",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "643025cb-ed90-409a-9c92-e9fa7ce02905",
+            "Value": {
+                "id": "0cd4ce2d-ab47-4022-8868-fa9c0711f575",
+                "resourcePath": "extensions\\FBInstantGames_LoadingBar\\FBInstantGames_LoadingBar.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "0b86a93c-03d3-47b2-9f2e-1284dba70301",
@@ -188,6 +204,14 @@
                 "id": "2b0456a9-e61f-4a92-aeb9-fd2284a8097e",
                 "resourcePath": "views\\b61458ac-841a-4d25-bc44-585b8403cc95.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bceff0a6-b228-487e-a1e7-19ea5d57b8d5",
+            "Value": {
+                "id": "ba78a9c1-0432-4e5a-8857-76f480a587d0",
+                "resourcePath": "extensions\\FBInstantGames\\FBInstantGames.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
