@@ -27,8 +27,11 @@ score = 0;
 currentPlacedCards = 0;
 maxCards = gridW * gridH;
 touchActive = false;
-
 gridMap = ds_grid_create(gridW, gridH);
+
+// Font settings
+draw_set_halign(fa_center);
+draw_set_font(fontBebas);
 
 // Create first card
 nextShapeT = floor(random(shapeN));

@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "a9389e58-8b54-4b4f-9d36-46d8e11a1ec5",
+            "Value": {
+                "id": "949aef01-6592-4abe-8c64-814efc49075d",
+                "resourcePath": "fonts\\fontBebas\\fontBebas.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "aa557c01-668e-431c-a5b3-0172d2cf2f2e",
             "Value": {
                 "id": "ad02220d-8d93-421e-8c94-38ee180247c4",
