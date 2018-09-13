@@ -1,0 +1,2 @@
+globalvar displayLeaderboard;
+displayLeaderboard = false;

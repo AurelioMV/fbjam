@@ -4,11 +4,11 @@ globalvar activeCard, colorN, shapeN, cardN, nextColorT, nextColorB, nextShapeT,
 globalvar cardSpeed, defaultSpeed, fastSpeed, increasedSpeed, dt;
 globalvar currentPlacedCards, maxCards; //To check all columns completion
 globalvar touchX, touchY, touchActive;
-globalvar paused;
+globalvar paused, gameOver;
 gridW = 3;
 gridH = 7;
 colorN = 3;
-shapeN = 3;
+shapeN = 4;
 colL = ds_list_create();
 for (var i = 0; i < gridW; i++) {
 	colL[| i] = 0;
@@ -30,16 +30,20 @@ maxCards = gridW * gridH;
 touchActive = false;
 gridMap = ds_grid_create(gridW, gridH);
 paused = false;
+gameOver = false;
+reloadedLB = false;
 
 // Font settings
 draw_set_halign(fa_center);
 
-// Create first card
-nextShapeT = floor(random(shapeN));
-nextShapeB = floor(random(shapeN));
-nextColorT = floor(random(colorN));
-nextColorB = floor(random(colorN));
-CreateCard(1);
+if(!tutorialMode && !instance_exists(TutorialController)) {
+	// Create first card
+	nextShapeT = floor(random(shapeN - 1));
+	nextShapeB = floor(random(shapeN - 1));
+	nextColorT = floor(random(colorN));
+	nextColorB = floor(random(colorN));
+	CreateCard(1);
+}
 
 if(!muted){
 	audio_master_gain(1);

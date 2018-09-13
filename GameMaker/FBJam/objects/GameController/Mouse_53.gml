@@ -7,16 +7,16 @@ if(!paused)
 	touchActive = true;
 
 //show_debug_message(string(touchX) + ", " + string(touchY));
-
+//if (displayLeaderboard) return;
 
 //Pause
-if (!paused){
+if (!paused && !gameOver){
 	if(point_in_rectangle(touchX, touchY, 25, 5, 120, 100)) {
 		touchActive = false;
 		TogglePause(true);
 	}
 }
-else {
+else if(paused && !gameOver){
 	if(point_in_rectangle(touchX, touchY, 226, 786, 493, 1036)) { //Resume
 		TogglePause(false);
 	}
@@ -32,5 +32,21 @@ else {
 		if (muted) audio_master_gain(0);
 		else audio_master_gain(1);
 		//TogglePause will handle playing or not the music
+	}
+}
+else if(gameOver) {
+	if(point_in_rectangle(touchX, touchY, 184, 545, 321, 677)) { //Main Menu
+		room_goto(MainMenu);
+	}
+	else if(point_in_rectangle(touchX, touchY, 412, 545, 545, 677)) { //Restart
+		room_restart();
+	}
+	else if(point_in_rectangle(touchX, touchY, 224, 830, 502, 1087)) { //ShareHighscore
+		displayLeaderboard = true;
+		
+		if (!reloadedLB){
+			FBInstantGames_QueryLeaderboard("score", 7, 0, "gmcallback_onleaderboard");
+			reloadedLB = true;	
+		}
 	}
 }

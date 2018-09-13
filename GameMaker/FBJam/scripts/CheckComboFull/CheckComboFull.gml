@@ -7,7 +7,7 @@ if(currentPlacedCards == maxCards) {
 	//Clear all cards
 	for(var w = 0; w < gridW; w++) {
 		for(var h = 0; h < gridH; h++) {
-			instance_destroy(gridMap[# w, h]);
+			gridMap[# w, h].poof = 1;
 		}
 		
 		colL[| w] = 0;

@@ -1,5 +1,8 @@
+gameOver = true;
+
 // Stop music
 MuteGame(true);
+
 
 // Submit score
 if (score > highscore){
@@ -7,5 +10,4 @@ if (score > highscore){
 	highscore = score;
 }
 
-//Apresentar menu de game over
-room_restart();
+instance_create_depth(0, 0, -100, MenuGO);
