@@ -5,3 +5,7 @@
 FBInstantGames_Initialise();
 FBInstantGames_SetLoadProgress(100);
 FBInstantGames_StartGame("OnGameStart", "OnGamePause");
+
+// Optimize
+gml_release_mode(true);
+application_surface_enable(false);
