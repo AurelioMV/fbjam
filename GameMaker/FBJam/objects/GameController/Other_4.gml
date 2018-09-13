@@ -41,5 +41,5 @@ nextColorT = floor(random(colorN));
 nextColorB = floor(random(colorN));
 CreateCard(1);
 
-//if(!muted)
-//	audio_play_sound(sfxTheme, 1, true);
+if(!muted)
+	audio_play_sound(sfxTheme, 1, true);

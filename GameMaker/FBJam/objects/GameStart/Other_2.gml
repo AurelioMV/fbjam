@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 globalvar highscore;
+globalvar muted;
 highscore = 0;
+muted = false;
 
 // Init instant games
 FBInstantGames_Initialise();

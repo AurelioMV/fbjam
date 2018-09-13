@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "e19e2f3c-6da3-42a8-a139-28757f685d0d",
+            "Value": {
+                "id": "ed91a248-b6e5-49c8-a3d0-d91ca234b25c",
+                "resourcePath": "sprites\\sprMenuPause\\sprMenuPause.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2f5104c-31d5-44ec-a2d6-40b0d4ee921a",
             "Value": {
                 "id": "3a45a1db-b830-4712-9792-4d6278bf01eb",
