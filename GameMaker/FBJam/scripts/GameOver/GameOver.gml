@@ -1,3 +1,5 @@
+gameOver = true;
+
 // Stop music
 MuteGame(true);
 
@@ -8,4 +10,4 @@ if (score > highscore){
 }
 
 //Apresentar menu de game over
-room_restart();
+//room_restart();

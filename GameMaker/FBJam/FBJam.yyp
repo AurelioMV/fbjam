@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "a2f71a84-2834-4a9c-a5e1-5422fb7af0b7",
+            "Value": {
+                "id": "cb26f3b7-aa9f-4cbc-b2dd-0f5eced846de",
+                "resourcePath": "sprites\\sprGameOver\\sprGameOver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9389e58-8b54-4b4f-9d36-46d8e11a1ec5",
             "Value": {
                 "id": "949aef01-6592-4abe-8c64-814efc49075d",

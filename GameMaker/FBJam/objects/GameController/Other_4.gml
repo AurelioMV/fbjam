@@ -4,7 +4,7 @@ globalvar activeCard, colorN, shapeN, cardN, nextColorT, nextColorB, nextShapeT,
 globalvar cardSpeed, defaultSpeed, fastSpeed, increasedSpeed, dt;
 globalvar currentPlacedCards, maxCards; //To check all columns completion
 globalvar touchX, touchY, touchActive;
-globalvar paused;
+globalvar paused, gameOver;
 gridW = 3;
 gridH = 7;
 colorN = 3;
@@ -30,6 +30,7 @@ maxCards = gridW * gridH;
 touchActive = false;
 gridMap = ds_grid_create(gridW, gridH);
 paused = false;
+gameOver = false;
 
 // Font settings
 draw_set_halign(fa_center);

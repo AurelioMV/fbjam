@@ -22,3 +22,5 @@ draw_sprite_ext(sprMiniIcons, i, 670, 85, 1.3, 1.3, 1, c_white, 1);
 //Pause Menu
 if(paused)
 	draw_sprite(sprMenuPause, 0, 360, 0);
+else if(gameOver)
+	draw_sprite(sprGameOver, 0, 360, 0);
