@@ -19,6 +19,7 @@ if(newRow != -1) {
 	//If card is higher than column height
 	if(activeCard.y < yy) {
 		activeCard.row = newRow;
+		
 		activeCard.x = rowsPos[| activeCard.row];
 		audio_play_sound(sfxMove, 1, 0);
 		return true;
