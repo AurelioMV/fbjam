@@ -17,8 +17,8 @@ if (instance_exists(activeCard)) {
 		var prev = gridMap[# row, len - 1];
 			
 		if (len != 0 && prev.shapeTop == activeCard.shapeBottom && prev.colorTop == activeCard.colorBottom) {
+			
 			// Combo
-			score += 20;
 			ClearColumn(row);
 			instance_destroy(activeCard);
 			// Create next
@@ -27,9 +27,11 @@ if (instance_exists(activeCard)) {
 		} 
 		else {
 			if (len < gridH && (len == 0 || prev.shapeTop == activeCard.shapeBottom || prev.colorTop == activeCard.colorBottom)) {
-					
-				if(len > 0) //Score just on match
-					score += 1;
+				
+				if (len > 0) //Col not empty 
+					score += 20;
+				else
+					score += 5;
 					
 				// Assign
 				gridMap[# row, len] = activeCard;
