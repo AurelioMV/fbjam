@@ -3,7 +3,7 @@
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "fbinstant_index.html",
-    "CopyToMask": -1,
+    "CopyToMask": 32,
     "exists": false,
     "exportAction": 0,
     "exportDir": "",
