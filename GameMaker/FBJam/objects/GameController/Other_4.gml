@@ -8,7 +8,7 @@ globalvar paused, gameOver;
 gridW = 3;
 gridH = 7;
 colorN = 3;
-shapeN = 3;
+shapeN = 4;
 colL = ds_list_create();
 for (var i = 0; i < gridW; i++) {
 	colL[| i] = 0;
@@ -37,8 +37,8 @@ reloadedLB = false;
 draw_set_halign(fa_center);
 
 // Create first card
-nextShapeT = floor(random(shapeN));
-nextShapeB = floor(random(shapeN));
+nextShapeT = floor(random(shapeN - 1));
+nextShapeB = floor(random(shapeN - 1));
 nextColorT = floor(random(colorN));
 nextColorB = floor(random(colorN));
 CreateCard(1);
