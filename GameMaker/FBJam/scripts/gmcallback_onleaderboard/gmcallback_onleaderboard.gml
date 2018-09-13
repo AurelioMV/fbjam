@@ -1,4 +1,4 @@
-var str = argument0;// "1:!Clara:!PictureURL:!123:!2:!Isa:!PictureURL:!15:!";
+var str = argument0;
 
 for (var i = 0; i < 10; i++){
 	var rank = 0;
