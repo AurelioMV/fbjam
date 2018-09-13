@@ -1,8 +1,6 @@
 var xx = mouse_x;
 var yy = mouse_y;
 
-show_debug_message(string(xx) + ", " + string(yy));
-
 if(!displayLeaderboard) {
 	//Play
 	if(point_in_rectangle(xx, yy, 200, 472, 535, 793)) {

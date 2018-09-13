@@ -31,6 +31,7 @@ touchActive = false;
 gridMap = ds_grid_create(gridW, gridH);
 paused = false;
 gameOver = false;
+reloadedLB = false;
 
 // Font settings
 draw_set_halign(fa_center);

@@ -7,7 +7,7 @@ if(!paused)
 	touchActive = true;
 
 //show_debug_message(string(touchX) + ", " + string(touchY));
-
+if (displayLeaderboard) return;
 
 //Pause
 if (!paused && !gameOver){
@@ -42,6 +42,11 @@ else if(gameOver) {
 		room_restart();
 	}
 	else if(point_in_rectangle(touchX, touchY, 224, 830, 502, 1087)) { //ShareHighscore
-		HighscoreShare();
+		displayLeaderboard = true;
+		
+		if (!reloadedLB){
+			FBInstantGames_QueryLeaderboard("score", 7, 0, "gmcallback_onleaderboard");
+			reloadedLB = true;	
+		}
 	}
 }
