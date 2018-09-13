@@ -2,10 +2,14 @@
 /// @param row
 
 var row = argument0;
-var st = floor(random(shapeN));
-var sb = floor(random(shapeN));
-var ct = floor(random(colorN));
-var cb = floor(random(colorN));
+var st = nextShapeT;
+var sb = nextShapeB;
+var ct = nextColorT;
+var cb = nextColorB;
+nextShapeT = floor(random(shapeN));
+nextShapeB = floor(random(shapeN));
+nextColorT = floor(random(colorN));
+nextColorB = floor(random(colorN));
 
 var xx = rowsPos[| row];
 

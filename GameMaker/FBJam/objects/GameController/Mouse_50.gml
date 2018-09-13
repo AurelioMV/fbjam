@@ -5,16 +5,17 @@ if (touchActive){
 	var yy = mouse_y - touchY;
 
 	if (abs(xx) > abs(yy)) {
-		if (abs(xx) > 10) {
+		if (abs(xx) > 50) {
 			// Horizontal
 			if (xx > 0) {
 				MoveCard(1);
 			} else {
 				MoveCard(-1);
 			}
+			touchActive = false;
 		}
 	} else {
-		if (abs(yy) > 10) {
+		if (abs(yy) > 50) {
 			//Swipe down, fall faster
 			if(yy > 0) {
 				RushCard();
@@ -22,7 +23,7 @@ if (touchActive){
 			else {
 				FlipCard();
 			}
+			touchActive = false;
 		}
 	}
-	touchActive = false;
 }
