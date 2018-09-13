@@ -1,6 +1,5 @@
 ///@function TogglePause(pause)
 ///@param pause
-///@param mute
 var pause = argument0;
 
 //No effect if already paused or playing
