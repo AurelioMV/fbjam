@@ -128,6 +128,7 @@ function FBInstantGames_QueryLeaderboard(lboard, numentries, offset, callbackfun
             });
 
 }
+
 function FBInstantGames_QueryLeaderboardPlayerPosition(lboard, callbackfunction)
 {	
 	FBInstant
@@ -143,3 +144,11 @@ function FBInstantGames_QueryLeaderboardPlayerPosition(lboard, callbackfunction)
   }).catch(error => console.error(error));
 }
 
+function FBInstantGames_Share(message) {
+   FBInstant.shareAsync({
+     intent: 'REQUEST',
+     text: message
+   }).then(function() {
+     // continue with the game.
+   });
+}
