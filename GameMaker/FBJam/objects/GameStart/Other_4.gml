@@ -3,3 +3,5 @@
 
 // Optimize
 room_speed = 60;
+
+AdjustScaling();
