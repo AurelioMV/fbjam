@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "d9278876-09c1-4989-84d8-843b69c8cac7",
+            "Value": {
+                "id": "5eb9847e-fc1a-4317-8e21-4fb8fd3d6953",
+                "resourcePath": "sprites\\sprBorder\\sprBorder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dd627d86-dcb2-4e98-a8a2-433c580d7221",
             "Value": {
                 "id": "7a0253cf-424b-4ae3-baa8-512383510187",
