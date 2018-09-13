@@ -29,7 +29,6 @@ for (var i = 0; i < 10; i++){
 		}
 	}
 	
-	show_message_async(string(rank));
 	playerLeaderboard[# rank - 1, 0] = name;
 	playerLeaderboard[# rank - 1, 1] = sprite_add(picture, 1, false, false, 0, 0);
 	playerLeaderboard[# rank - 1, 2] = high;

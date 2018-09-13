@@ -1,8 +1,8 @@
 {
-    "id": "70e93494-fce3-4629-b16d-1f9d839370cc",
+    "id": "d0760643-01d1-49cd-b570-c4e08f9b1108",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "OnGamePause",
+    "name": "gmcallback_gamestart",
     "IsCompatibility": false,
     "IsDnD": false
 }

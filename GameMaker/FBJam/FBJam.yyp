@@ -106,7 +106,7 @@
             "Key": "29bfacad-ddf1-4ca3-a1f9-c38466ce2756",
             "Value": {
                 "id": "3c12130a-f198-4b89-999d-8510a76cd2ac",
-                "resourcePath": "scripts\\OnLeaderboardReceived\\OnLeaderboardReceived.yy",
+                "resourcePath": "scripts\\gmcallback_onleaderboard\\gmcallback_onleaderboard.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -234,7 +234,7 @@
             "Key": "70e93494-fce3-4629-b16d-1f9d839370cc",
             "Value": {
                 "id": "4ce22f91-b0f9-48d3-a876-0a47c8d5bf19",
-                "resourcePath": "scripts\\OnGamePause\\OnGamePause.yy",
+                "resourcePath": "scripts\\gmcallback_pause\\gmcallback_pause.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -402,7 +402,7 @@
             "Key": "d0760643-01d1-49cd-b570-c4e08f9b1108",
             "Value": {
                 "id": "4b8e4b0f-1fa1-4dfb-87b3-618c5f0019ca",
-                "resourcePath": "scripts\\OnGameStart\\OnGameStart.yy",
+                "resourcePath": "scripts\\gmcallback_gamestart\\gmcallback_gamestart.yy",
                 "resourceType": "GMScript"
             }
         },

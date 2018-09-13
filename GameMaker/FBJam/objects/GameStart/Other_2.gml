@@ -8,7 +8,7 @@ muted = false;
 // Init instant games
 FBInstantGames_Initialise();
 FBInstantGames_SetLoadProgress(100);
-FBInstantGames_StartGame("OnGameStart", "OnGamePause");
+FBInstantGames_StartGame("gmcallback_gamestart", "gmcallback_pause");
 
 // Optimize
 gml_release_mode(true);
