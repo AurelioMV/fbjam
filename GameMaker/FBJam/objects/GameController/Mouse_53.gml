@@ -6,7 +6,7 @@ touchY = mouse_y;
 if(!paused)
 	touchActive = true;
 
-show_debug_message(string(touchX) + ", " + string(touchY));
+//show_debug_message(string(touchX) + ", " + string(touchY));
 
 
 //Pause
