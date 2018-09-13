@@ -21,6 +21,8 @@ if (activeCard.y >= yy) {
 		currentPlacedCards = 0;
 		activeCard.poof = 1;
 		CreateCard(1);	
+		
+		audio_play_sound(sfxBomb,1,0);
 	}
 	else if (len != 0 && prev.shapeTop == activeCard.shapeBottom && prev.colorTop == activeCard.colorBottom) {
 		// Combo
