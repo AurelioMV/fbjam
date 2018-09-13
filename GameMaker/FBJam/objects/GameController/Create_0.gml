@@ -2,6 +2,7 @@
 globalvar gridMap, gridW, gridH, colH, colS, colL, rowsPos;
 globalvar activeCard, colorN, shapeN, cardN;
 globalvar cardSpeed, defaultSpeed, fastSpeed, dt;
+globalvar currentPlacedCards, maxCards; //To check all columns completion
 globalvar touchX, touchY;
 gridW = 3;
 gridH = 7;
@@ -22,6 +23,8 @@ colS = 1130;
 colH = 130;
 cardN = 0;
 score = 0;
+currentPlacedCards = 0;
+maxCards = gridW * gridH;
 
 gridMap = ds_grid_create(gridW, gridH);
 //gridMap[# 2, 2] = 5;

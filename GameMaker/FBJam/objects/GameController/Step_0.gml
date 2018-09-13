@@ -18,12 +18,16 @@ if (instance_exists(activeCard)) {
 			
 		if (len != 0 && prev.shapeTop == activeCard.shapeBottom && prev.colorTop == activeCard.colorBottom) {
 			
-			// Combo
-			ClearColumn(row);
-			instance_destroy(activeCard);
-			// Create next
-			audio_play_sound(sfxConnect, 1, 0);
-			CreateCard(1);
+			currentPlacedCards++;
+						
+			if(!CheckComboFull()) {
+				// Combo
+				ClearColumn(row);
+				instance_destroy(activeCard);
+				// Create next
+				audio_play_sound(sfxConnect, 1, 0);
+				CreateCard(1);	
+			}
 		} 
 		else {
 			if (len < gridH && (len == 0 || prev.shapeTop == activeCard.shapeBottom || prev.colorTop == activeCard.colorBottom)) {
@@ -32,13 +36,15 @@ if (instance_exists(activeCard)) {
 					score += 20;
 				else
 					score += 5;
-					
+				
+				currentPlacedCards++;
+				
 				// Assign
 				gridMap[# row, len] = activeCard;
 				activeCard.y = yy;
 				colL[| row]++;
 				
-				
+				CheckComboFull();
 				
 				// Create next
 				audio_play_sound(sfxConnect, 1, 0);

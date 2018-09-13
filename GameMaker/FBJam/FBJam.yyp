@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "86092b86-0fd8-4f33-867e-469b524cd9b3",
+            "Value": {
+                "id": "41629b83-5b18-44d9-8084-22b726a93f18",
+                "resourcePath": "scripts\\CheckComboFull\\CheckComboFull.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "914e806d-cd28-4c8d-901b-a2d6b22d960f",
             "Value": {
                 "id": "4b51d75c-9a44-4f26-af86-7f213eaaebd6",
@@ -350,7 +358,8 @@
         "1932c499-4b81-432a-977c-1facc7fe41c9",
         "1038487b-7049-4894-9536-dbfdaecd18f4",
         "70e93494-fce3-4629-b16d-1f9d839370cc",
-        "d0760643-01d1-49cd-b570-c4e08f9b1108"
+        "d0760643-01d1-49cd-b570-c4e08f9b1108",
+        "86092b86-0fd8-4f33-867e-469b524cd9b3"
     ],
     "tutorial": ""
 }
