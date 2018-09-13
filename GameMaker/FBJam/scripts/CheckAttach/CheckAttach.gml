@@ -43,7 +43,8 @@ if (activeCard.y >= yy) {
 	} 
 	else {
 		// Game Over
-		show_debug_message("Game Over");	
-		room_restart();
+		GameOver();
+		//show_debug_message("Game Over");	
+		//room_restart();
 	}
 }

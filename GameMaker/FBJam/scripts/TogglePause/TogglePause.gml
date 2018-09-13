@@ -1,8 +1,7 @@
-///@function TogglePause(pause, mute)
+///@function TogglePause(pause)
 ///@param pause
 ///@param mute
 var pause = argument0;
-var mute = argument1;
 
 //No effect if already paused or playing
 if(paused != pause) {
@@ -10,5 +9,3 @@ if(paused != pause) {
 	
 	//Enable or disable UI
 }
-
-MuteGame(mute);
