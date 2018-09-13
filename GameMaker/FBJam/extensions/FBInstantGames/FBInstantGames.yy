@@ -17,7 +17,7 @@
     "androidsourcedir": "",
     "author": "",
     "classname": "",
-    "copyToTargets": -1,
+    "copyToTargets": 32,
     "date": "2018-16-07 12:03:21",
     "description": "",
     "extensionName": "",

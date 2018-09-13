@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "70e93494-fce3-4629-b16d-1f9d839370cc",
+            "Value": {
+                "id": "4ce22f91-b0f9-48d3-a876-0a47c8d5bf19",
+                "resourcePath": "scripts\\OnGamePause\\OnGamePause.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "0b86a93c-03d3-47b2-9f2e-1284dba70301",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "d0760643-01d1-49cd-b570-c4e08f9b1108",
+            "Value": {
+                "id": "4b8e4b0f-1fa1-4dfb-87b3-618c5f0019ca",
+                "resourcePath": "scripts\\OnGameStart\\OnGameStart.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d45da197-41a6-4edf-a36b-1ea3e452b598",
             "Value": {
                 "id": "e4178128-10dc-466a-9e27-6f5559c0d55a",
@@ -332,7 +348,9 @@
         "d45da197-41a6-4edf-a36b-1ea3e452b598",
         "f3e5519b-488c-4c92-a779-7492046a25f8",
         "1932c499-4b81-432a-977c-1facc7fe41c9",
-        "1038487b-7049-4894-9536-dbfdaecd18f4"
+        "1038487b-7049-4894-9536-dbfdaecd18f4",
+        "70e93494-fce3-4629-b16d-1f9d839370cc",
+        "d0760643-01d1-49cd-b570-c4e08f9b1108"
     ],
     "tutorial": ""
 }
