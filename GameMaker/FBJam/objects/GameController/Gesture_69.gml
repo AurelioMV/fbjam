@@ -13,7 +13,7 @@ if (abs(xx) > abs(yy)) {
 } else {
 	//Swipe down, fall faster
 	if(yy > 0) {
-		cardSpeed = fastSpeed;
+		RushCard();
 	}
 	else {
 		FlipCard();
