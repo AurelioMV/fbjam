@@ -2,6 +2,7 @@
 globalvar gridMap, gridW, gridH, colH, colS, colL, rowsPos;
 globalvar activeCard, colorN, shapeN, cardN;
 globalvar cardSpeed, defaultSpeed, fastSpeed, dt;
+globalvar touchX, touchY;
 gridW = 3;
 gridH = 7;
 colorN = 3;

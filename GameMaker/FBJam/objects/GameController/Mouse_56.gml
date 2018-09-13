@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-/*var xx = event_data[?"diffX"];
-var yy = event_data[?"diffY"];
+var xx = mouse_x - touchX;
+var yy = mouse_y - touchY;
 
 if (abs(xx) > abs(yy)) {
 	// Horizontal
@@ -18,4 +18,4 @@ if (abs(xx) > abs(yy)) {
 	else {
 		FlipCard();
 	}
-}*/
+}
