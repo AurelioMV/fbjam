@@ -39,3 +39,5 @@ nextShapeB = floor(random(shapeN));
 nextColorT = floor(random(colorN));
 nextColorB = floor(random(colorN));
 CreateCard(1);
+
+audio_play_sound(sfxTheme, 1, true);
