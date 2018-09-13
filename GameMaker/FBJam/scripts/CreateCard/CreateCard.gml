@@ -1,6 +1,11 @@
 /// @function CreateCard(row, shapeTop, shapeBottom, colorTop, colorBottom)
 /// @param row
 
+if (tutorialMode){
+	CreateTutorialCard();
+	return;
+}
+
 var row = argument0;
 var st = nextShapeT;
 var sb = nextShapeB;

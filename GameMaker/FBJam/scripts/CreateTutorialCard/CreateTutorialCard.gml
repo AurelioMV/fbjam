@@ -18,9 +18,27 @@ switch(tutorialStep){
 		break;
 	case 1:
 		nextShapeT = 2;
-		nextShapeB = 1;
+		nextShapeB = 2;
 		nextColorT = 2;
 		nextColorB = 0;
+		break;
+	case 2:
+		nextShapeT = 1;
+		nextShapeB = 0;
+		nextColorT = 0;
+		nextColorB = 2;
+		break;
+	case 3:
+		nextShapeT = 1;
+		nextShapeB = 1;
+		nextColorT = 2;
+		nextColorB = 2;
+		break;
+	case 4:
+		nextShapeT = 0;
+		nextShapeB = 1;
+		nextColorT = 1;
+		nextColorB = 2;
 		break;
 }
 

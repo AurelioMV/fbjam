@@ -11,7 +11,7 @@ if(!paused && !gameOver) {
 					touchActive = false;
 					activeCard.y += cardSpeed * dt;	
 				}
-				else if(activeCard.row == 2){
+				else if(activeCard.row == 2 && activeCard.shapeBottom != 1){
 					touchActive = false;
 					activeCard.y += cardSpeed * dt;
 					CheckAttach();
@@ -23,19 +23,55 @@ if(!paused && !gameOver) {
 					touchActive = false;
 					activeCard.y += cardSpeed * dt;	
 				}
-				else if(activeCard.row == 2){
+				else if(activeCard.row == 2 && activeCard.shapeBottom == 1){
 					touchActive = false;
 					activeCard.y += cardSpeed * dt;
 					CheckAttach();
 				}
 				break;
 			case 2:
-				var yy = colS - colH * 3;
+				var yy = colS - colH * 4;
 				if(activeCard.y < yy) {
 					touchActive = false;
 					activeCard.y += cardSpeed * dt;	
 				}
-				else if(activeCard.row == 2){
+				else if(activeCard.row == 2 && activeCard.colorBottom == 0) {
+					touchActive = false;
+					activeCard.y += cardSpeed * dt;
+					CheckAttach();
+				}
+				break;
+			case 3:
+				var yy = colS - colH * 4;
+				if(activeCard.y < yy) {
+					touchActive = false;
+					activeCard.y += cardSpeed * dt;	
+				}
+				else if(activeCard.shapeBottom == 1 && activeCard.row == 1){
+					touchActive = false;
+					activeCard.y += cardSpeed * dt;
+					CheckAttach();
+				}
+				break;
+			case 4:
+				var yy = colS - colH * 4;
+				if(activeCard.y < yy) {
+					touchActive = false;
+					activeCard.y += cardSpeed * dt;	
+				}
+				else if(activeCard.row == 1 && cardSpeed == fastSpeed){
+					touchActive = false;
+					activeCard.y += cardSpeed * dt;
+					CheckAttach();
+				}
+				break;
+			case 5:
+				var yy = colS - colH * 4;
+				if(activeCard.y < yy) {
+					touchActive = false;
+					activeCard.y += cardSpeed * dt;	
+				}
+				else if(activeCard.row == 1 && activeCard.shapeBottom == 1){
 					touchActive = false;
 					activeCard.y += cardSpeed * dt;
 					CheckAttach();
