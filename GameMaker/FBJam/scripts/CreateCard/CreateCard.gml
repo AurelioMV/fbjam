@@ -31,7 +31,7 @@ if (random(1) < 0.07){
 	}
 } else {
 	// Bomb
-	if (random(1) < 1.03){
+	if (random(1) < 0.03){
 		nextColorT = 3;
 		nextColorB = 3;
 		nextShapeT = 1;
