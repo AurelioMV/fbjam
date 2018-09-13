@@ -96,7 +96,7 @@ function FBInstantGames_SetScore(score,leaderboard,extradata,callbackfunction)
 		return leaderboard.setScoreAsync(score, extradata);
 	  })
 	  .then(() => {
-		  eval("gml_Script_"+callbackfunction+"(null,null,'"+score+"')");
+		  //eval("gml_Script_"+callbackfunction+"(null,null,'"+score+"')");
 		  console.log('Score saved');
 		  
 	  })
