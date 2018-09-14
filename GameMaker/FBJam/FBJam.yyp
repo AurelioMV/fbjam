@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "69cfe3fb-f12a-46da-83fb-5480f2c7aad1",
+            "Value": {
+                "id": "29a02b33-4f3d-4401-b4ad-b055a73dca52",
+                "resourcePath": "sounds\\sfxBomb\\sfxBomb.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "70e93494-fce3-4629-b16d-1f9d839370cc",
             "Value": {
                 "id": "4ce22f91-b0f9-48d3-a876-0a47c8d5bf19",
